@@ -1,0 +1,54 @@
+.Search {
+  margin-left: 10px;
+  display: flex;
+  /* position: fixed; */
+  overflow: hidden;
+  gap: 0.3rem;
+}
+.upper_logo > img {
+  margin-left: 1.2rem;
+  width: 17rem;
+  height: 5rem;
+}
+.Search > img {
+  background-color: rgb(121, 8, 68);
+  border-radius: 48%;
+  width: 47px;
+  height: 47px;
+}
+.search-input {
+  display: flex;
+  background-color: rgb(186, 205, 220);
+  align-items: center;
+  border-radius: 13px;
+
+  padding: 2px;
+}
+.inp {
+  color: rgb(53, 49, 49);
+  font-size: 18px;
+  width: 190px;
+  margin-left: 3px;
+  margin-right: 2px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid darkcyan;
+}
+.serach-icon {
+  display: flex;
+  color: azure;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  padding: 12px 7px;
+  align-items: center;
+  background-color: salmon;
+  cursor: pointer;
+}
+.serach-icon:hover {
+  background-color: rgb(213, 107, 96);
+}

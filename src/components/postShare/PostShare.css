@@ -1,0 +1,116 @@
+.PostShare {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(168, 202, 221);
+  padding: 0.8rem;
+  border-radius: 1.3rem;
+  flex-direction: column;
+}
+.PostShare > .img_inp {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+}
+.PostShare > .img_inp > img {
+  border: 2px solid magenta;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.PostShare > .img_inp > div {
+  width: 85%;
+}
+.PostShare > .img_inp > div > textarea {
+  background-color: #c8ece2;
+  outline: none;
+  border: 1px solid darkcyan;
+  padding: 15px;
+  max-height: 200px;
+  font-size: 19px;
+  border-radius: 14px;
+  width: 90%;
+  overflow: hidden;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+.img_inp > div > textarea:hover {
+  border: 2px solid rgb(8, 197, 197);
+}
+.postOptions {
+  display: flex;
+  justify-content: space-around;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  color: rgb(56, 113, 113);
+}
+.share_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(214, 81, 192),
+    rgb(218, 98, 18)
+  );
+  transition: all 500ms ease-out;
+  border: 2px solid rgb(51, 244, 8);
+}
+.share_button:hover {
+  background-image: linear-gradient(
+    to top,
+    rgb(81, 163, 214),
+    rgb(207, 17, 162)
+  );
+  border: 2px solid slateblue;
+}
+
+.option:hover {
+  background-color: #ffffff43;
+}
+.o2 > svg {
+  color: darkblue;
+}
+.o3 > svg {
+  color: purple;
+}
+
+.o4 > svg {
+  color: rgb(129, 138, 28);
+}
+.previewImage {
+  border: 1px solid sandybrown;
+  padding: 10px;
+  align-self: center;
+  z-index: 999;
+  max-height: 50vh;
+  max-width: 40vw;
+  position: relative;
+  border-radius: 20px;
+  background-color: #312a2a0b;
+}
+.preview_cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #f16a10f7;
+}
+.preview_img {
+  height: 93%;
+  width: 100%;
+  margin-top: 17px;
+}

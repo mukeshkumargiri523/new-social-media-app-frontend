@@ -1,38 +1,61 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --darkblue: #2f323d;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 5px rgba(0, 0, 0, 0.6);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4cb256;
+  --video: #4a4eb7;
+  --location: #ef5757;
+  --shedule: #e1ae4a;
+}
+
 .App {
-  text-align: center;
+  overflow: hidden;
+  color: var(--darkblue);
+  background-color: #e9eff0d5;
+  padding: 1rem 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blur {
+  position: absolute;
+  background-color: #83f2dd;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #9ae3a1;
+  filter: blur(80px);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(81, 163, 214),
+    rgb(95, 18, 218)
+  );
+  transition: all 500ms ease-out;
 }
-
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-image: linear-gradient(
+    to top,
+    rgb(81, 163, 214),
+    rgb(207, 17, 162)
+  );
+  border: 2px solid slateblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:disabled {
+  background-color: silver;
+  pointer-events: none;
 }

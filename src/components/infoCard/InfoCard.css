@@ -1,0 +1,44 @@
+.InfoCard {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background-color: #f0d7e5;
+  padding: 1rem;
+  position: relative;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+.infoHead {
+  display: flex;
+  justify-content: space-between;
+}
+.infoHead > img {
+  width: 25px;
+}
+.infoHead > img:hover {
+  width: 30px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info > span > b {
+  color: rgb(178, 5, 5);
+}
+.info > span {
+  color: rgba(46, 26, 222, 0.789);
+}
+.InfoCard > hr {
+  margin-bottom: 20px;
+}
+.logout-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.logout-btn:hover {
+  border: none;
+  width: 80px;
+}

@@ -1,0 +1,94 @@
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 5rem;
+  position: relative;
+}
+.Auth > .auth-main-left {
+  padding: 2rem 0;
+  border-right: 2px solid rebeccapurple;
+}
+.auth-left {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 1rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.276),
+    rgba(0, 0, 255, 0.118)
+  );
+  border-radius: 2rem;
+}
+.Logo-name {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.Logo-name > h1 {
+  font-size: 2.7rem;
+  padding-left: 10px;
+  background-color: rgba(255, 98, 0, 0.312);
+  color: rgb(18, 56, 87);
+}
+.Logo-name > h6 {
+  margin-top: -20px;
+  font-size: 1rem;
+}
+
+.auth-left > img {
+  height: 10rem;
+  width: 27rem;
+}
+.auth-right {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to top,
+    rgba(7, 230, 33, 0.234),
+    rgba(238, 9, 101, 0.276)
+  );
+}
+.infoform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.infoInput {
+  border: 1px solid salmon;
+  outline: none;
+  background-color: rgba(172, 204, 226, 0.46);
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+}
+.infoInput:hover {
+  background-color: aliceblue;
+}
+.infoform > div {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 100%;
+}
+.sign_button {
+  cursor: pointer;
+  width: 8rem;
+  height: 2.5rem;
+  align-self: flex-end;
+}
+.small_text {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.872);
+}
+.small_text > span {
+  cursor: pointer;
+  color: blue;
+}
+.sign_button:hover {
+  border: none;
+}

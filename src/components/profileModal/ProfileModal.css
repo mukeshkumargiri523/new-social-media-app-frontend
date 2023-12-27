@@ -1,0 +1,38 @@
+.modal {
+  margin-top: -40px;
+  padding: 5px;
+  background-color: #d3f6f1;
+}
+.lastRow > div {
+  display: flex;
+  flex: 1;
+}
+.radio_inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.infoform > h4 {
+  margin-bottom: -15px;
+  font-size: 2.2rem;
+  color: rgb(11, 37, 130);
+}
+.single,
+.relation {
+  display: flex;
+  font-size: 16px;
+}
+.single > label,
+.relation > label {
+  color: brown;
+  margin-top: 3px;
+}
+.upload_file {
+  color: rgb(63, 4, 118);
+}
+
+.update_btn {
+  width: 10rem;
+  height: 2.5rem;
+}

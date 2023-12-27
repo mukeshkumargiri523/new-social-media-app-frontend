@@ -1,0 +1,23 @@
+.PostSide {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  max-height: 130vh;
+  overflow: auto;
+  border-radius: 11px;
+  overflow-x: hidden;
+}
+.PostSide::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.PostSide::-webkit-scrollbar-track {
+  margin-top: 20px;
+  background: rgb(220, 198, 158); /* color of the tracking area */
+}
+
+.PostSide::-webkit-scrollbar-thumb {
+  background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
+}

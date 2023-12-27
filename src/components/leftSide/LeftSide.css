@@ -1,0 +1,22 @@
+.LeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-height: 130vh;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+.navIcons > img {
+  width: 35px;
+  height: 35px;
+}
+.sharing_btn {
+  height: 2.6rem;
+  width: 70%;
+  align-self: center;
+}

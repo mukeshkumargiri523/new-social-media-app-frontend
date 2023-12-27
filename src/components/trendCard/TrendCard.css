@@ -1,0 +1,36 @@
+.TrendCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 15px;
+  border-radius: 10px;
+  background-color: #edae95;
+}
+
+.TrendCard > h3 {
+  align-self: center;
+  font-size: 1.4em;
+}
+.trend_heading {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(10, 10, 117);
+  margin-top: -13px;
+  margin-bottom: -8px;
+}
+.trends {
+  display: flex;
+  flex-direction: column;
+}
+.trend {
+  display: flex;
+  margin-bottom: 6px;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.682);
+}
+.trend > .trend_name {
+  color: rgb(4, 114, 110);
+  font-size: 15px;
+}
